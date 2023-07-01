@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=17ec5b6d-c30c-47b0-b2ba-d0ccd1043eb4&lang=ru_RU"></script>
+    <script src="js/index.js"></script>
+    <title>ПО-СТЕЛЬКАМ</title>
+</head>
+
+<body>
+    <section class="anger">
+        <div class="body">
+            <div>
+                <div>
+                    <img src="img/logo.svg" class="logo" />
+                </div>
+            </div>
+            <div class="info">
+                <div class="title">Вы справитесь с дискомфортом при ходьбе с помощью современной методики.</div>
+                <div class="subtitle">Дарим детям и взрослым движение без трудностей!</div>
+                <a href="#methodology" class="button">
+                    Узнать все о методике
+                </a>
+            </div>
+        </div>
+
+        <img src="img/anger-1.svg" alt="" class="img-anger-1">
+        <img src="img/anger-2.svg" alt="" class="img-anger-2">
+    </section>
+
+    <section class="min-result">
+        <div>
+            <div class="img">
+                <img src="img/education.svg">
+            </div>
+            <div class="text">Возможность хорошо учиться и работать</div>
+        </div>
+        <div>
+            <div class="img">
+                <img src="img/grafic.svg">
+            </div>
+            <div class="text">Ощутимые результаты по сравнению с альтернативами</div>
+        </div>
+        <div>
+            <div class="img">
+                <img src="img/usd-circle 3.svg">
+            </div>
+            <div class="text">Экономия Ваших денег, времени и сил</div>
+        </div>
+    </section>
+
+    <!-- <section id="method" class="position-relative hidde">
+        <h2 class="text-center color-darkblue">Почему именно наша методика?</h2>
+        <div class="text-center color-gray">Единственная альтернатива – это работа с логопедом.</div>
+        <div class="m-auto method-anger-cart">
+            <div class="method-cart bg-white radius hidde">
+                <h2 class="color-darkblue">Логопед</h2>
+                <div class="method-cart-body flex-c-between flex-c">
+                    <div class="grid-r method-cart-cart">
+                        <div class="img bg-red radius flex-r-center flex-c-center"><img src="img/calendar-alt (1) 1.svg"
+                                alt=""></div>
+                        <div class="h-100 flex-c-center">Занимает несколкьо лет</div>
+                    </div>
+                    <div class="grid-r method-cart-cart">
+                        <div class="img bg-red radius flex-r-center flex-c-center"><img src="img/usd-circle 1.svg"
+                                alt="">
+                        </div>
+                        <div class="h-100 flex-c-center">1300 ₽/час – средняя стоимость занятия с логопедом</div>
+                    </div>
+                    <div class="grid-r method-cart-cart">
+                        <div class="img bg-red radius flex-r-center flex-c-center"><img src="img/annoyed 1.svg" alt="">
+                        </div>
+                        <div class="h-100 flex-c-center">Не всегда есть ощутимый результат</div>
+                    </div>
+                </div>
+            </div>
+            <div class="method-cart bg-white radius hidde">
+                <h2 class="color-darkblue">Наш специалист</h2>
+                <div class="method-cart-body flex-c-between flex-c">
+                    <div class="grid-r method-cart-cart">
+                        <div class="img bg-green radius flex-r-center flex-c-center"><img
+                                src="img/iconmonstr-glasses-5 1.svg" alt=""></div>
+                        <div class="h-100 flex-c-center">Всего один прием для подбора линз</div>
+                    </div>
+                    <div class="grid-r method-cart-cart">
+                        <div class="img bg-green radius flex-r-center flex-c-center"><img src="img/usd-circle 1.svg"
+                                alt="">
+                        </div>
+                        <div class="h-100 flex-c-center">Наша средняя стоимость за...</div>
+                    </div>
+                    <div class="grid-r method-cart-cart">
+                        <div class="img bg-green radius flex-r-center flex-c-center"><img src="img/nerd 1.svg" alt="">
+                        </div>
+                        <div class="h-100 flex-c-center">Результаты видны уже на первом приеме у специалиста</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="method-cicle-top radius-cicle position-absolute"></div>
+        <div class="method-cicle-bottom radius-cicle position-absolute"></div>
+    </section> -->
+
+    <section id="maps" class="bg-lithgray m-auto position-relative hidde">
+        <h2 class="static-h2 text-center w-auto color-darkblue">Кажется, у меня / моего ребёнка плоскостопие.<br> Что
+            делать?
+        </h2>
+        <div class="grid-maps">
+            <div class="flex-maps flex-r position-relative">
+                <img src="img/office.svg" alt="" class="flex-maps-img radius">
+                <div class="flex-c-center flex-maps-text-anger">
+                    <div class="grid-c">
+                        <h2 class="color-darkblue">Шаг 1</h2>
+                        <div class="flex-maps-text">Запишитесь на нашу бесплатную консультацию, где мы ответим на
+                            все Ваши вопросы: про нарушение, стоимость, время, лечение и др.</div>
+                    </div>
+                </div>
+                <div class="position-absolute maps-cicle-1 radius-cicle"></div>
+            </div>
+            <div class="flex-maps flex-r position-relative">
+                <img src="img/medical.svg" alt="" class="flex-maps-img radius">
+                <div class="flex-c-center flex-maps-text-anger">
+                    <div class="grid-c">
+                        <h2 class="color-darkblue">Шаг 2</h2>
+                        <div class="flex-maps-text">Далее, если все устраивает, Вас записывают к нашему специалисту: он
+                            выявляет ортопедические нарушения</div>
+                    </div>
+                </div>
+                <div class="position-absolute maps-cicle-2 radius-cicle"></div>
+            </div>
+            <div class="flex-maps flex-r position-relative">
+                <img src="img/office_re.svg" alt="" class="flex-maps-img radius">
+                <div class="flex-c-center flex-maps-text-anger">
+                    <div class="grid-c">
+                        <h2 class="color-darkblue">Шаг 3</h2>
+                        <div class="flex-maps-text">Специалист подбирает Вам индивидуальные стельки, которые
+                            подходит именно Вам. <br><br>Изготовление стелек от 5 до 15 дней.</div>
+                    </div>
+                </div>
+                <div class="position-absolute maps-cicle-3 radius-cicle"></div>
+            </div>
+            <div class="flex-maps flex-r position-relative">
+                <img src="img/finish.svg" alt="" class="flex-maps-img radius">
+                <div class="flex-c-center flex-maps-text-anger">
+                    <div class="grid-c">
+                        <h2 class="color-darkblue">Шаг 4</h2>
+                        <div class="flex-maps-text">Примерка стелек и при необходимости дальнейшее наблюдение и
+                            консультирование наших специалистов</div>
+                    </div>
+                </div>
+                <div class="position-absolute maps-cicle-4 radius-cicle"></div>
+            </div>
+        </div>
+        <div class="maps-cicle-top radius-cicle position-absolute"></div>
+        <div class="maps-cicle-bottom radius-cicle position-absolute"></div>
+    </section>
+
+    <section id="methodology" class="bg-blue methodology">
+        <h2 class="color-white m-auto w-auto text-center">Наша методика</h2>
+        <div class="body">
+            <div class="text">
+                <div class="line"></div>
+                <div class="items">
+                    <div class="item">Получаем и оцениваем центр массы</div>
+                    <div class="item">Оцениваем состояние опорно-двигательной системы</div>
+                    <div class="item">Строим математические модели</div>
+                    <div class="item">Моделируем Вашу здоровую походку</div>
+                    <div class="item">Оцениваем результат в динамике</div>
+                </div>
+            </div>
+            <div class="img">
+                <img src="img/3d_modeling.svg" width="100%" />
+            </div>
+        </div>
+    </section>
+
+    <section id="uniqueness" class="uniqueness">
+        <h2 class="m-auto w-auto text-center">В чем наша уникальность?</h2>
+        <div class="body">
+            <div class="item position-relative hidde">
+                <div class="img">
+                    <img src="img/check-circle.svg" alt="">
+                </div>
+                <div>Подбор ортопедической стельки в динамическом режиме</div>
+                <div class="position-absolute item-cicle-bot radius-cicle"></div>
+            </div>
+            <div class="item position-relative hidde">
+                <div class="img">
+                    <img src="img/check-circle.svg" alt="">
+                </div>
+                <div>Персонализация медицинского изделия</div>
+                <div class="position-absolute item-cicle-bot radius-cicle"></div>
+            </div>
+            <div class="item position-relative hidde">
+                <div class="img">
+                    <img src="img/check-circle.svg" alt="">
+                </div>
+                <div>Уменьшаем дискомфорт при ходьбе</div>
+                <div class="position-absolute item-cicle-bot radius-cicle"></div>
+            </div>
+            <div class="item position-relative hidde">
+                <div class="img">
+                    <img src="img/check-circle.svg" alt="">
+                </div>
+                <div>Уменьшение количества «ручного» труда при производстве ортопедических стелек</div>
+                <div class="position-absolute item-cicle-bot radius-cicle"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="agree" class="bg-blue">
+        <h2 class="color-white m-auto w-auto text-center">Почему нам можно доверять?</h2>
+        <div class="flex-r flex-r-center body">
+            <div class="bg-green radius agree-cart position-relative hidde">
+                <div class="img bg-white radius flex-r-center flex-c-center">
+                    <img src="img/micro.svg" alt="">
+                </div>
+                <div class="color-white">
+                    У нас есть исследования, доказывающие эффективность нашей методики
+                </div>
+                <div class="position-absolute agree-cicle radius-cicle"></div>
+                <div class="position-absolute agree-cicle-bot radius-cicle"></div>
+            </div>
+            <div class="bg-green radius agree-cart position-relative hidde">
+                <div class="img bg-white radius flex-r-center flex-c-center">
+                    <img src="img/profile.svg" alt="">
+                </div>
+                <div class="color-white">
+                    Мы сотрудничаем с НИИ и лечебными центрами
+                </div>
+                <div class="position-absolute agree-cicle radius-cicle"></div>
+                <div class="position-absolute agree-cicle-bot radius-cicle"></div>
+            </div>
+            <div class="bg-green radius agree-cart position-relative hidde">
+                <div class="img bg-white radius flex-r-center flex-c-center">
+                    <img src="img/education-green.svg" alt="">
+                </div>
+                <div class="color-white">
+                    Наша команда состоит из профессионалов с большим опытом работы
+                </div>
+                <div class="position-absolute agree-cicle radius-cicle"></div>
+                <div class="position-absolute agree-cicle-bot radius-cicle"></div>
+            </div>
+            <div class="bg-green radius agree-cart position-relative hidde">
+                <div class="img bg-white radius flex-r-center flex-c-center">
+                    <img src="img/gramm.svg" alt="">
+                </div>
+                <div class="color-white">
+                    У нас есть патент<br /> <a href="files/pattent.pdf" class="c-pointer t-decoration color-darkgreen"
+                        download>Открыть</a>
+                </div>
+                <div class="position-absolute agree-cicle radius-cicle"></div>
+                <div class="position-absolute agree-cicle-bot radius-cicle"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="partners">
+        <h2 class="m-auto w-auto text-center">Наши партнеры</h2>
+        <div class="body">
+            <div>
+                <img src="img/ssmu_logo.png" alt="">
+            </div>
+            <div>
+                <img src="img/ldc_logo.png" alt="">
+            </div>
+            <div>
+                <div class="text-log">ООО "МИП “ДИВА-3Д”</div>
+            </div>
+            <div>
+                <div class="text-log">ООО “Электроимпедансная визуализация”</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="alarm" class="bg-green position-relative hidde">
+        <div class="alarm-div-left position-absolute radius-cicle"></div>
+        <div class="alarm-div-top position-absolute radius-cicle"></div>
+        <div class="alarm-div-right position-absolute radius-cicle"></div>
+        <div class="alarm-div-bottom position-absolute radius-cicle"></div>
+        <div class="flex-r flex-c-center">
+            <div class="alarm-title">
+                <h2 class="color-white w-auto"><strong class="color-blue">Позвольте</strong> Вашему ребёнку или себе
+                    <strong class="color-blue">почувствовать мир</strong> новыми и спокойными красками!
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="info" class="bg-darkblue color-white">
+        <div class="grid-ral-2">
+            <div>
+                <div class="">
+                    <div class="bg-green b-attrib"></div>
+                    <h2 class="">Контактная информация</h2>
+                </div>
+                <div class="flex-c info-text">
+                    <div class="grid-r info-cart">
+                        <img src="img/envelope.svg" alt="">
+                        <div>kinesio_70@mail.ru</div>
+                    </div>
+                    <div class="grid-r info-cart">
+                        <img src="img/map-marker.svg" alt="">
+                        <div>634061, Томская область, г Томск, <br />ул Герцена, д. 45</div>
+                    </div>
+                    <div class="grid-r info-cart">
+                        <img src="img/clock-nine.svg" alt="">
+                        <div>9:00 – 22:00</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div id="map"></div>
+            </div>
+        </div>
+        <div class="flex-r-between info-footer">
+            <div>© 2021-2023 г. – ООО "КИНЕЗИО+"</div>
+            <div class="flex-c w-auto white-space">
+                <div>ИНН 700000112</div>
+                <div>ОРГН 1227000008619</div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

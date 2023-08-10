@@ -428,6 +428,12 @@ body {
     gap: 73px;
 }
 
+#agree h3 {
+    font-size: 16px;
+    margin: 0;
+    font-weight: 500;
+}
+
 .agree-cicle {
     width: 156px;
     height: 156px;

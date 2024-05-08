@@ -175,6 +175,15 @@ body {
     margin: 0;
     overflow-x: hidden;
     font-family: 'Noto Sans', sans-serif;
+
+    #support{
+        position: absolute;
+        top: 1vh;
+        left: auto;
+        right: 1vw;
+        font-size: larger;
+        max-width: 30vw;
+    }
 }
 
 #method {
